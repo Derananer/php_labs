@@ -66,5 +66,6 @@
 		echo "<br/>"."Ошибка при показе : ". $ex->getMessage();
 	}
 ?>
+<a href="create_student.php"><strong>Добавить ученика</strong></a>
 
 <?php include "footer.php"; ?>

@@ -15,7 +15,7 @@
 
 		// формируем таблицу в том случае, если запрос вернул хотя бы какие-нибудь строчки
 		if (mysqli_num_rows($q_result) > 0) { ?>
-			<h2>Ученики</h2>
+			<h2>Предметы</h2>
 			    <table >
 		      		<thead>
 						<tr>
@@ -50,5 +50,6 @@
 		echo "<br/>"."Ошибка при показе : ". $ex->getMessage();
 	}
 ?>
+<a href="create_subject.php"><strong>Добавить предмет</strong></a>
 
 <?php include "footer.php"; ?>

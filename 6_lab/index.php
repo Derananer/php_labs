@@ -1,9 +1,6 @@
 <?php include "header.php"; ?>
 	<ul>
       <li>
-        <a href="create.php"><strong>Добавить записи в БД</strong></a> - страничка с формами добавления сотрудника, должности, меню.
-      </li>
-      <li>
         <a href="get_students.php"><strong>Показать всех учеников</strong></a>
       </li>
       <li>
