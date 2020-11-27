@@ -1,6 +1,6 @@
 <?php
 $array = array(
-  1,2,3,4
+  1, 7, 2, 0, 3, 4
     );
 print_r($array);
     
@@ -23,3 +23,4 @@ function minMaxAverage($array){
 }
 
 minMaxAverage($array);
+?>

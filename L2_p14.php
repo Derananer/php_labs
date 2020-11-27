@@ -9,12 +9,17 @@ $B = 4;
 $C = 8;
 $D = 5;
 
-$znamenatel=$B*$D;
-$chislitel=$A*$D+$C*$B;
+function drobSum($A,$B,$C,$D){
+	$znamenatel=$B*$D;
+	$chislitel=$A*$D+$C*$B;
 
-$nod=gcd($chislitel,$znamenatel);
+	$nod=gcd($chislitel,$znamenatel);
 
-$znamenatel/=$nod;
-$chislitel/=$nod;
+	$znamenatel/=$nod;
+	$chislitel/=$nod;
 
-echo "drob: ".$chislitel."/".$znamenatel;
+	echo "drob: ".$chislitel."/".$znamenatel;
+}
+
+drobSum($A,$B,$C,$D);
+?>

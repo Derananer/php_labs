@@ -8,3 +8,4 @@ $file = fopen("my_file.txt","w");
 fwrite ($file,$content_new);
 fclose($file); 
 echo $content_new;
+?>
